@@ -1,48 +1,6 @@
-// create a vector of strings, adding two games with a collection initializer
-// create a string named input
-// greet the player
-// start the main program loop (while or do-while)
-// ask the player "what would you like to do" and offer the options: Add, Edit, Delete, Show, and Quit
-// use getline(cin, input) get input from the player
-// ﻿
-// if the player says "add"
-//    ask the player what game they would like to add
-//    use getline to get input from the player
-//    use push_back to add the name to the vector
-//    go to the top of the loop
-// ﻿
-// if the player says "edit"
-//    ask the player what game they would like to edit
-//    use getline to get input from the player
-//    use the find() algorithm OR a for loop to look for that name in the vector﻿
-//        if the name is found, ask the player what they would like to change it to
-//            get user input
-//            update the name using the iterator that find pointed to
-//                OR the index that the for loop is at.
-//            else, tell the player that name could not be found
-//            go to the top of the loop
-// ﻿
-//  if the player says remove
-//    ask the player what game they would like to remove
-//    use getline to get input from the player
-//    use the find() algorithm OR a for loop to look for that name in the vector﻿
-//        if the name is found, remove the name and tell the player
-//    go to the top of the loop
-
-// if the player says show
-//    sort the list using the sort() algorithm
-//    use a for loop to display the list and number the list starting at 1.
-//    go back to the top of the list
-
-// if the player says quit
-//    ask the player if they are sure
-//    get input from the player
-//    if they say "yes"
-//       thank the player for using the program
-//       use return 0 to end the program
-//    else they say anything else,
-//       go to the top of the loop
-// ﻿
+// Viet Nguyen
+// T432Q948
+// Week 2 Assignment
 
 #include <vector>
 #include <iostream>
